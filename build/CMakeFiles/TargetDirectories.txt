@@ -1,0 +1,3 @@
+/home/derick/Programming/C++/dom++/build/CMakeFiles/MyProject.dir
+/home/derick/Programming/C++/dom++/build/CMakeFiles/edit_cache.dir
+/home/derick/Programming/C++/dom++/build/CMakeFiles/rebuild_cache.dir
