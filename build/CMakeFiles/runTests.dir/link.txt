@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/runTests.dir/test/main.cpp.o CMakeFiles/runTests.dir/test/parserTest.cpp.o CMakeFiles/runTests.dir/src/node.cpp.o CMakeFiles/runTests.dir/src/element.cpp.o CMakeFiles/runTests.dir/src/parser.cpp.o -o runTests  /usr/lib/libgtest.so.1.14.0 -lpthread 
