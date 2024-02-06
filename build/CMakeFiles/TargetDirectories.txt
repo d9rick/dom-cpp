@@ -1,3 +1,6 @@
-/home/derick/Programming/C++/dom++/build/CMakeFiles/MyProject.dir
+/home/derick/Programming/C++/dom++/build/CMakeFiles/dom++.dir
+/home/derick/Programming/C++/dom++/build/CMakeFiles/run.dir
+/home/derick/Programming/C++/dom++/build/CMakeFiles/runTests.dir
+/home/derick/Programming/C++/dom++/build/CMakeFiles/test.dir
 /home/derick/Programming/C++/dom++/build/CMakeFiles/edit_cache.dir
 /home/derick/Programming/C++/dom++/build/CMakeFiles/rebuild_cache.dir

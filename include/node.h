@@ -1,3 +1,6 @@
+#ifndef NODE_H
+#define NODE_H
+
 #include <vector>
 #include <string>
 #include <map>
@@ -8,6 +11,7 @@ enum NodeType
     Text
 };
 
+// parent class for all nodes
 class Node
 {
 public:
@@ -21,7 +25,9 @@ public:
 
     virtual void print() = 0;
     
-private:
+protected:
     std::vector<Node*> children;
     NodeType type;
 };
+
+#endif // NODE_H

@@ -485,3 +485,42 @@ events:
       
       
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/usr/share/cmake/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/usr/lib/cmake/GTest/GTestConfig.cmake:39 (find_dependency)"
+      - "/usr/share/cmake/Modules/FindGTest.cmake:194 (find_package)"
+      - "CMakeLists.txt:28 (find_package)"
+    directories:
+      source: "/home/derick/Programming/C++/dom++/build/CMakeFiles/CMakeScratch/TryCompile-2bgcMz"
+      binary: "/home/derick/Programming/C++/dom++/build/CMakeFiles/CMakeScratch/TryCompile-2bgcMz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/derick/Programming/C++/dom++/build/CMakeFiles/CMakeScratch/TryCompile-2bgcMz'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c2a28/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_c2a28.dir/build.make CMakeFiles/cmTC_c2a28.dir/build
+        make[1]: Entering directory '/home/derick/Programming/C++/dom++/build/CMakeFiles/CMakeScratch/TryCompile-2bgcMz'
+        Building C object CMakeFiles/cmTC_c2a28.dir/src.c.o
+        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_c2a28.dir/src.c.o -c /home/derick/Programming/C++/dom++/build/CMakeFiles/CMakeScratch/TryCompile-2bgcMz/src.c
+        Linking C executable cmTC_c2a28
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c2a28.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_c2a28.dir/src.c.o -o cmTC_c2a28 
+        make[1]: Leaving directory '/home/derick/Programming/C++/dom++/build/CMakeFiles/CMakeScratch/TryCompile-2bgcMz'
+        
+      exitCode: 0
+...

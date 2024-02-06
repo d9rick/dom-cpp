@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/dom++.dir/src/main.cpp.o CMakeFiles/dom++.dir/src/node.cpp.o CMakeFiles/dom++.dir/src/element.cpp.o CMakeFiles/dom++.dir/src/parser.cpp.o -o dom++ 
